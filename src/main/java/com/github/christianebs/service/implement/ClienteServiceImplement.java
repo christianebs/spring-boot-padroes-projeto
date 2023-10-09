@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.github.christianebs.model.Cliente;
+import com.github.christianebs.model.ClienteBuilder;
 import com.github.christianebs.model.ClienteRepository;
 import com.github.christianebs.model.Endereco;
 import com.github.christianebs.model.EnderecoRepository;
@@ -35,7 +36,19 @@ public class ClienteServiceImplement implements ClienteService {
 
     @Override
     public void inserir(Cliente cliente) {
-        salvarClienteComCep(cliente);
+        String cep = cliente.getEndereco().getCep();
+        Endereco endereco = enderecoRepository.findById(cep).orElseGet(() -> {
+            Endereco novoEndereco = viaCepService.consultarCep(cep);
+            enderecoRepository.save(novoEndereco);
+            return novoEndereco;
+        });
+
+        Cliente novoCliente = new ClienteBuilder()
+                .comNome(cliente.getNome())
+                .comEndereco(endereco)
+                .build();
+
+        clienteRepository.save(novoCliente);
     }
 
     @Override
