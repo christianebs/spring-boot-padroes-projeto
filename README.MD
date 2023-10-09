@@ -2,7 +2,7 @@
 
 
 
-# Sistema de Gerenciamento de Clientes com Integração de Serviço de CEP
+## Sistema de Gerenciamento de Clientes com Integração de Serviço de CEP
 
 O desafio faz parte do "Explorando Padrões de Projetos na Prática com Java" do módulo "Ganhando Produtividade com Spring Framework e Java". Este projeto exemplifica a implementação prática de Padrões de Projeto em uma aplicação Spring Boot. Ele abrange a arquitetura RESTful, utilizando o padrão MVC, juntamente com o uso do padrão Repository para a persistência de dados. Além disso, demonstra o uso do padrão Service para a lógica de negócios e a integração de serviços externos usando o padrão Façade com o Feign.
 
@@ -12,7 +12,7 @@ Agora, o projeto também incorpora o padrão Builder, facilitando a construção
 
 ## :woman_mechanic: Linguagens e Ferramentas
 
-![Java](https://img.shields.io/badge/java-0D1117.svg?style=for-the-badge&logo=openjdk&logoColor=%23ED8B00) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0D1117.svg?style=for-the-badge&logo=visual-studio-code&logoColor=0078d7) ![Git](https://img.shields.io/badge/git-0D1117.svg?style=for-the-badge&logo=git&logoColor=%23F05033) ![GitHub](https://img.shields.io/badge/github-0D1117.svg?style=for-the-badge&logo=github&logoColor=white)
+![Java](https://img.shields.io/badge/java-0D1117.svg?style=for-the-badge&logo=openjdk&logoColor=%23ED8B00) ![Spring](https://img.shields.io/badge/spring-0D1117.svg?style=for-the-badge&logo=spring&logoColor=%236DB33F) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0D1117.svg?style=for-the-badge&logo=visual-studio-code&logoColor=0078d7) ![Git](https://img.shields.io/badge/git-0D1117.svg?style=for-the-badge&logo=git&logoColor=%23F05033) ![GitHub](https://img.shields.io/badge/github-0D1117.svg?style=for-the-badge&logo=github&logoColor=white)
 
 
 ## :triangular_flag_on_post: Contribua com o projeto
@@ -48,7 +48,7 @@ Certifique-se de ter o ambiente Java e Spring Boot configurado.
 
 # 2. Clone o projeto
 
-git clone https://github.com/christianebs/js-banco-digital-cubos.git
+git clone https://github.com/christianebs/spring-boot-padroes-projeto.git
 
 # 3. Escolha a IDE
 
@@ -69,7 +69,7 @@ Execute a classe principal Application.java.
 
 ## :scroll: Licença do Projeto
 
-[Licenca MIT License](https://github.com/christianebs/js-banco-digital-cubos/blob/main/LICENSE.txt)
+[Licenca MIT License](https://github.com/christianebs/spring-boot-padroes-projeto/blob/main/LICENSE.txt)
 
 ## :woman_technologist: Autora
 
