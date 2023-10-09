@@ -1,7 +1,5 @@
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=christianebs.spring-boot-padroes-projeto) ![GitHub Repo stars](https://img.shields.io/github/stars/christianebs/spring-boot-padroes-projeto) ![GitHub pull requests](https://img.shields.io/github/issues-pr/christianebs/spring-boot-padroes-projeto) ![GitHub closed issues](https://img.shields.io/github/issues-closed/christianebs/spring-boot-padroes-projeto)
 
-
-
 ## Sistema de Gerenciamento de Clientes com Integração de Serviço de CEP
 
 O desafio faz parte do "Explorando Padrões de Projetos na Prática com Java" do módulo "Ganhando Produtividade com Spring Framework e Java". Este projeto exemplifica a implementação prática de Padrões de Projeto em uma aplicação Spring Boot. Ele abrange a arquitetura RESTful, utilizando o padrão MVC, juntamente com o uso do padrão Repository para a persistência de dados. Além disso, demonstra o uso do padrão Service para a lógica de negócios e a integração de serviços externos usando o padrão Façade com o Feign.
@@ -13,6 +11,10 @@ Agora, o projeto também incorpora o padrão Builder, facilitando a construção
 ## :woman_mechanic: Linguagens e Ferramentas
 
 ![Java](https://img.shields.io/badge/java-0D1117.svg?style=for-the-badge&logo=openjdk&logoColor=%23ED8B00) ![Spring](https://img.shields.io/badge/spring-0D1117.svg?style=for-the-badge&logo=spring&logoColor=%236DB33F) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0D1117.svg?style=for-the-badge&logo=visual-studio-code&logoColor=0078d7) ![Git](https://img.shields.io/badge/git-0D1117.svg?style=for-the-badge&logo=git&logoColor=%23F05033) ![GitHub](https://img.shields.io/badge/github-0D1117.svg?style=for-the-badge&logo=github&logoColor=white)
+
+## :paintbrush: Layout
+
+![spring-padroes-projeto](https://github.com/christianebs/spring-boot-padroes-projeto/assets/108686840/5c8b27a6-6f63-49c0-a48b-e9c1bcd46794)
 
 
 ## :triangular_flag_on_post: Contribua com o projeto
